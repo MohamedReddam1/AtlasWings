@@ -7,7 +7,7 @@ import './home.css'
 
 // imported images and videos =====>
 import Airplane from '../../Assets/airplane.png'
-import video1 from '../../Assets/video1.mp4'
+import Img1 from '../../Assets/Sky.jpg'
 
 // imported icons =====>
 import { FaFacebookSquare } from "react-icons/fa";
@@ -34,7 +34,7 @@ export default function Home() {
         </div>
 
         <div className='videoDiv'>
-          <video src={video1} autoPlay muted loop className='video' data-aos="fade-up"></video>
+          <img src={Img1} autoPlay muted loop className='video' data-aos="fade-up"/>
         </div>
 
         <div className='imageDiv' data-aos="fade-down">
